@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsivo.css">
+</head>
+<body>
+  <header>
+
+    <!-- Icone da Alura com link para página de cursos alura -->
+    <a class="logoAlura" href="https://www.alura.com.br/" target="_blank" rel="noopener noreferrer">
+        <img src="Images/Logo Alura.svg" alt="Logo da Alura">
+    </a>
+
+    <h1 class="titulo">Codificador / Decodificador</h1>
+
+</header>
+
+  <main>
+    <section class="campoInserir">
+      <form>
+        <textarea class="inserirText" type="text" name="input-texto"  placeholder="insira o texto aqui" style="word-wrap: break-word;"></textarea>
+        <label for="input-texto" class="Menssagem"><img src="Images/Icone de Esclamação.svg" alt="Icone de esclamação">
+          Apenas letras minúsculas, sem acento</label>
+        
+        <div class = "botoes">
+          <button onclick="encriptar()">
+            criptografar!
+          </button>
+          <button onclick="decriptar()">descriptografar!</button>
+        </div>
+      </form>
+    </section>
+  
+    
+    <section class="campoResposta">
+      <form class="boxform">
+        <textarea class="respostaText" type="text" id="msgAlterada"></textarea>
+    
+      <button class="btn"  id="btn-copy" onclick="copiarTexto()" hidden>copiar </button>
+    </form>    
+    </section>
+  
+  </main>
+  <footer>
+    <section id="meus-creditos">
+        <p>Desenvolvido por: Michel Ferreira</p>
+
+    </section>
+
+    <section id="minhas-redes">
+
+        <p>Minhas redes sociais:</p>
+        <div id="icones-redes-sociais">
+
+            <a id="icone-github" href="#" target="_blank"
+                rel="noopener noreferrer">
+                <img class="icone-rede-social" src="Images/Icone GitHub.svg" alt="Icone do GitHub">
+            </a>
+
+            <a id="icone-linkedin" href="#"
+                target="_blank" rel="noopener noreferrer">
+                <img class="icone-rede-social" src="Images/Icone Linkedin.svg" alt="Icone do LinkedIn">
+            </a>
+
+            <!-- Icone do Instagram com link para o meu perfil -->
+            <a id="icone-instagram" href="#" target="_blank"
+                rel="noopener noreferrer">
+                <img class="icone-rede-social" src="Images/Icone Intagram.svg" alt="Icone do instagram">
+            </a>
+
+        </div>
+    </section>
+</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+

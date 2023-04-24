@@ -1,0 +1,168 @@
+
+header {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px auto;
+  box-sizing: border-box;
+}
+.logoAlura {
+  position: absolute;
+  left: 50px;
+}
+.titulo {
+  font-size: 40px;
+  text-align: center;
+}
+
+body {
+  background-color: #F3F5FC;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 100%;
+  height: 100%;
+
+}
+
+main {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+  margin-bottom: 50px;
+}
+
+
+.campoInserir,
+.campoResposta {
+    font-size: 32px;    
+    height: 550px;
+    padding: 30px;
+    border-radius: 50px;
+    align-items: center;
+    margin: 10px;
+  
+}
+.campoInserir {
+  border: 1px solid #84A9AC;
+  overflow: hidden;
+  width: 70%;
+}
+
+.campoResposta {
+  background-color: #84A9AC;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  justify-content: space-evenly;
+}
+.inserirText{
+  padding: 15px;
+  width: 100%;
+  height: 350px;
+  font-size: 32px;
+  color: #204051;
+  background: none;
+  border: none;
+  resize: none;
+  outline: none;
+  box-sizing: border-box;
+
+}
+.respostaText {
+  padding: 15px;
+  width: 100%;
+  height: 350px;
+  font-size: 32px;
+  color: #071A52;
+  background: none;
+  border: none;
+  resize: none;
+  box-sizing: border-box;
+  outline: none;
+
+}
+.inserirText::placeholder {
+  color: #204051;
+}
+.respostaText::placeholder{
+  color: #071A52;
+}
+
+label[for="input-texto"]{  
+    font-size: 0.5em;
+    display: flex;
+    align-items: center;
+}
+
+.botoes {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: #0F4C81;
+    border: none;
+    color: #CAE8D5;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: translate(-3px, -3px);
+    filter: saturate(150%);
+    color: #ffffff;
+}
+
+button:active {
+    transform: scale(0.9);
+    box-shadow: 1px 1px 1px #000000;
+}
+
+button:disabled {
+    display: none;
+}
+footer {
+  width: 100%;
+  height: 160px;
+  font-size: 15px;
+  color: #ffffff;
+  text-align: center;
+  background-color: #204051;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+#meus-creditos {
+  margin-bottom: 10px;
+}
+
+#icones-redes-sociais {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 25px;
+}
+
+.icone-rede-social {
+  transition: 0.3s;
+}
+
+.icone-rede-social:hover {
+  transform: scale(1.1);
+}
+@media screen and (min-width: 800px) {
+
+} 
