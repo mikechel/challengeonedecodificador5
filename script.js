@@ -16,8 +16,9 @@ function encriptar() {
       res = res.replace(/a/g, "ai");
       res = res.replace(/o/g, "ober");
       res = res.replace(/u/g, "ufat");
-      const mostrar = document.getElementById("btn-copy");
-      mostrar.hidden = false;
+      document.getElementById("btn-copy").disabled = false;
+      document.getElementById("msgAlterada").disabled = false;
+      document.getElementById("imagem").hidden = true;
       return (document.getElementById("msgAlterada").value = res);
     }
   }
@@ -40,8 +41,9 @@ function decriptar() {
       res = res.replace(/ober/g, "o");
       res = res.replace(/ufat/g, "u");
       console.log(res);
-      const mostrar = document.getElementById("btn-copy");
-      mostrar.hidden = false;
+      document.getElementById("btn-copy").disabled = false;
+      document.getElementById("msgAlterada").disabled = false;
+      document.getElementById("imagem").hidden = true;
       return (document.getElementById("msgAlterada").value = res);
   }  
     
