@@ -23,8 +23,8 @@
 
   <main>
     <section class="campoInserir">
-      <form>
-        <textarea class="inserirText" type="text" name="input-texto"  placeholder="insira o texto aqui" style="word-wrap: break-word;"></textarea>
+      <form id="formEntrada">
+        <textarea class="inserirText" id = "input-texto" type="text" name="input-texto"  placeholder="insira o texto aqui" style="word-wrap: break-word;"></textarea>
         <label for="input-texto" class="Menssagem"><img src="Images/Icone de Esclamação.svg" alt="Icone de esclamação">
           Apenas letras minúsculas, sem acento</label>
         
@@ -38,8 +38,8 @@
     </section>
   
     
-    <section class="campoResposta">
-      <form class="boxform">
+    <section class="campoResposta" >
+      <form class="boxform" id="formResposta">
         <textarea class="respostaText" type="text" id="msgAlterada"></textarea>
     
       <button class="btn"  id="btn-copy" onclick="copiarTexto()" hidden>copiar </button>

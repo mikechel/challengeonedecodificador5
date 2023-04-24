@@ -47,7 +47,7 @@ function decriptar() {
     
 }
 
-const form = document.getElementById('msgAlterada')
+const form = document.getElementById('formEntrada');
 form.addEventListener('submit', e => {
     e.preventDefault();
      document.getElementById("input-texto").value = "";
