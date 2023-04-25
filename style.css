@@ -38,7 +38,7 @@ main {
 .campoInserir,
 .campoResposta {
     font-size: 32px;    
-    height: 550px;
+    height: auto;
     padding: 30px;
     border-radius: 50px;
     align-items: center;
@@ -59,6 +59,11 @@ main {
   justify-items: center;
   justify-content: space-evenly;
 }
+.campoResposta img {
+  width: 330px;
+  height: 322px;
+ 
+}
 .inserirText{
   padding: 15px;
   width: 100%;
@@ -75,7 +80,7 @@ main {
 .respostaText {
   padding: 15px;
   width: 100%;
-  height: 350px;
+  height: 372px;
   font-size: 32px;
   color: #071A52;
   background: none;
@@ -83,7 +88,10 @@ main {
   resize: none;
   box-sizing: border-box;
   outline: none;
-
+}
+.respostaText:disabled {
+  height: auto;
+  font-size: 0.9em;
 }
 .inserirText::placeholder {
   color: #204051;
@@ -105,7 +113,7 @@ label[for="input-texto"]{
     align-items: center;
 }
 
-button {
+button{
     width: 200px;
     height: 50px;
     border-radius: 15px;
@@ -118,13 +126,11 @@ button {
 
 button:hover {
     transform: translate(-3px, -3px);
-    filter: saturate(150%);
-    color: #ffffff;
+
 }
 
 button:active {
     transform: scale(0.9);
-    box-shadow: 1px 1px 1px #000000;
 }
 
 button:disabled {
