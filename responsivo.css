@@ -44,7 +44,7 @@
 
     /* Estilizando os botões para responsivo até 740px */
     button {
-        width: 150px;
+        width: 100%;
         font-size: 18px;
     }
 
@@ -94,7 +94,7 @@
 
 
     button {
-        width: 200px;
+        width: 100%;
         font-size: 24px;
     }
 

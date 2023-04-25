@@ -24,15 +24,15 @@
   <main>
     <section class="campoInserir">
       <form id="formEntrada">
-        <textarea class="inserirText" id = "input-texto" type="text" name="input-texto"  placeholder="insira o texto aqui" style="word-wrap: break-word;"></textarea>
+        <textarea class="inserirText" id = "input-texto" type="text" name="input-texto"  placeholder="Insira o texto aqui" style="word-wrap: break-word;"></textarea>
         <label for="input-texto" class="Menssagem"><img src="Images/Icone de Esclamação.svg" alt="Icone de esclamação">
-          Apenas letras minúsculas, sem acento</label>
+          Apenas letras minúsculas, sem acento!</label>
         
         <div class = "botoes">
           <button onclick="encriptar()">
-            criptografar!
+            Criptografar
           </button>
-          <button onclick="decriptar()">descriptografar!</button>
+          <button onclick="decriptar()">Descriptografar</button>
         </div>
       </form>
     </section>
@@ -41,10 +41,10 @@
     <section class="campoResposta" >
       <form class="boxform" id="formResposta">
         <img id = "imagem" class = "imagem" src = "Images/Procurando.svg" alt = "Pessoa procurando o texto com uma lupa">
-        <textarea class="respostaText" type="text" id="msgAlterada" placeholder="Nenhuma mensagem encontrada" disabled></textarea>   
+        <textarea name ="naoEncontrada" class="respostaText" type="text" id="msgAlterada" placeholder="Nenhuma mensagem encontrada!" disabled></textarea>   
 
       <div class="botoes">
-        <button id="btn-copy" onclick="copiarTexto()" disabled>copiar </button>
+        <button id="btn-copy" onclick="copiarTexto()" disabled>Copiar </button>
       </div>
     </form>    
     </section>
