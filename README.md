@@ -46,3 +46,5 @@ Principais aprendizados com o projeto
 - Validação do texto inserido é somente com letras minusculas;
 - Utilização da função preventDefault do JavaScript;
 - Maior aprendizado de CSS.
+
+- Link do Pages https://mikechel.github.io/challengeonedecodificador5/
